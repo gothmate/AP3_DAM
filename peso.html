@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat:wght@300&family=Nunito:wght@400;600;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <title>Peso Ideal</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sexo">
+            <input id="homem" name="gender" type="radio" />
+            <label for="gender">Homem</label>
+            <br>
+            <input id="mulher" name="gender" type="radio" />
+            <label for="gender">Mulher</label>
+        </div>
+        <input id="altura" type="text" placeholder="Digite sua altura 0.00"/>
+        <button  onclick="calculaPeso()">Calcular Peso Ideal</button>
+
+        <div id="peso"></div>
+
+    </div>
+
+    <footer>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a><br><br>
+        Coded by
+        <a id="logo" href="https://gothmate.github.io" target="_blank">
+          <span>Goth</span>
+          mate
+        </a>
+      </footer>
+    <script src="peso.js"></script>
+</body>
+</html>

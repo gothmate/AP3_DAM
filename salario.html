@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat:wght@300&family=Nunito:wght@400;600;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <title>Salário Total</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <label>Ganho por hora:</label>
+            <input id="valor_hora" type="text" />
+        </div>
+        <div>
+            <label>Horas trabalhadas:</label>
+            <input id="horas_trabalhadas" type="text" />
+        </div>
+        <button onclick="calculaSalario()">Calcular Salário</button>
+
+        <div id="salario_total"></div>
+
+    </div>
+    <footer>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a><br><br>
+        Coded by
+        <a id="logo" href="https://gothmate.github.io" target="_blank">
+          <span>Goth</span>
+          mate
+        </a>
+      </footer>
+
+    <script src="salario.js"></script>
+</body>
+</html>
