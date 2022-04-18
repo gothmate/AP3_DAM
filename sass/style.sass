@@ -10,6 +10,26 @@ body
     width: 100vw
     margin-inline: auto
 
+header
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-wrap: wrap
+    width: 100vw
+    & .title
+        width: 100vw
+        text-align: center
+        padding: 0.3rem
+        & h1
+            font-size: 1rem
+        & h3
+            font-size: 0.95rem
+    & a
+        display: flex
+        flex: 1
+        margin: .5rem
+        justify-content: center
+
 .container
     display: flex
     justify-content: center
@@ -44,6 +64,7 @@ a, button
 
 input
     padding: 0.5rem
+    color: #1b1b1b
     background: #a7a7a7
     border: none
     margin-top: 1rem

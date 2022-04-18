@@ -12,6 +12,31 @@ body {
   margin-inline: auto;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+header .title {
+  width: 100vw;
+  text-align: center;
+  padding: 0.3rem;
+}
+header .title h1 {
+  font-size: 1rem;
+}
+header .title h3 {
+  font-size: 0.95rem;
+}
+header a {
+  display: flex;
+  flex: 1;
+  margin: 0.5rem;
+  justify-content: center;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -51,6 +76,7 @@ a:hover, button:hover {
 
 input {
   padding: 0.5rem;
+  color: #1b1b1b;
   background: #a7a7a7;
   border: none;
   margin-top: 1rem;
